@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>net.wasdev.maven.parent</groupId>
+        <artifactId>default-parent</artifactId>
+        <version>1.2</version>
+    </parent>
+
+    <groupId>net.wasdev.maven.tools</groupId>
+    <artifactId>wdt-maven</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>WebSphere Developer Tools for Maven</name>
+    <description>
+        Parent pom for WDT Maven tools supporting Eclipse development for 
+        WebSphere Application Server Liberty Profile
+    </description>
+    <url>https://wasdev.github.io</url>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>https://raw.github.com/WASdev/ci.maven.tools/master/LICENSE</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:git@github.com:WASdev/ci.maven.tools.git</connection>
+        <developerConnection>scm:git:git@github.com:WASdev/ci.maven.tools.git</developerConnection>
+        <url>git@github.com:WASdev/ci.maven.tools.git</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>cbridgha</id>
+            <name>Chuck Bridgham</name>
+            <email>chuck.bridgham@gmail.com</email>
+        </developer>
+    </developers>
+
+    <!--   <modules>
+        <module>liberty-maven-plugin</module>
+        <module>liberty-plugin-archetype</module>   
+    </modules> -->
+
+</project>
