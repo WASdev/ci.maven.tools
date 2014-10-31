@@ -42,9 +42,18 @@
         </developer>
     </developers>
 
-    <!--   <modules>
-        <module>liberty-maven-plugin</module>
-        <module>liberty-plugin-archetype</module>   
-    </modules> -->
+     <modules>
+        <module>liberty-target</module>   
+        <module>liberty-target-impl</module>
+     <!--    <module>liberty-osgi-ejb31-archetype</module>
+        <module>liberty-osgi-ejb32-archetype</module>
+        <module>liberty-osgi-web30-archetype</module>
+        <module>liberty-osgi-web31-archetype</module>
+        <module>liberty-osgi-archetype</module>
+        <module>liberty-ejb31-archetype</module>
+        <module>liberty-ejb32-archetype</module>
+        <module>liberty-web30-archetype</module>
+        <module>liberty-web31-archetype</module>  -->
+    </modules>
 
 </project>
