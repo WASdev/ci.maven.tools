@@ -2,3 +2,6 @@
 */.settings/*
 */.project/*
 .metadata
+/.settings/
+/target/
+/.project
