@@ -9,10 +9,10 @@ Collection of Maven archetypes and target pom's for developing Java EE and OSGi 
 
 #### Usage:  Add the following dependency to your application pom.xml to represent the Liberty classpath
 
-<dependency>
-  	<groupId>net.wasdev.maven.tools</groupId>
-	<artifactId>liberty-target</artifactId>
-	<version>8.5.5.4</version>
-  	<type>pom</type>
-  	<scope>provided</scope>
-  </dependency>
+	<dependency>
+	  	<groupId>net.wasdev.maven.tools</groupId>
+		<artifactId>liberty-target</artifactId>
+		<version>8.5.5.4</version>
+	  	<type>pom</type>
+	  	<scope>provided</scope>
+	  </dependency>
