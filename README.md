@@ -12,7 +12,7 @@ Collection of Maven archetypes and target pom's for developing Java EE and OSGi 
 	<dependency>
 	  	<groupId>net.wasdev.maven.tools</groupId>
 		<artifactId>liberty-target</artifactId>
-		<version>8.5.5.4</version>
+		<version>1.0</version>
 	  	<type>pom</type>
 	  	<scope>provided</scope>
 	  </dependency>

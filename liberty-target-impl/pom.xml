@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>net.wasdev.maven.tools</groupId>
 	<artifactId>liberty-target-impl</artifactId>
-	<version>8.5.5.4</version>
+	<version>1.0</version>
 	<packaging>pom</packaging>
 	
 	<description>
