@@ -47,8 +47,8 @@
         <module>runtime_targets/liberty-target-impl</module>
         
         
-     <module>archetypes/liberty-osgi-ejb31-archetype</module>
-        <module>archetypes/liberty-osgi-ejb32-archetype</module>
+     <module>archetypes/liberty-osgi-ejb30-archetype</module>
+        <module>archetypes/liberty-osgi-ejb31-archetype</module>
         <module>archetypes/liberty-osgi-web30-archetype</module>
         <module>archetypes/liberty-osgi-web31-archetype</module>
         <module>archetypes/liberty-ejb31-archetype</module>
