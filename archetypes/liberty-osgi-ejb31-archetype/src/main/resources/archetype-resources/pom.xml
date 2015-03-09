@@ -22,17 +22,12 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.osgi</groupId>
-			<artifactId>org.osgi.core</artifactId>
-			<version>4.3.1</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>javaee</groupId>
-			<artifactId>javaee-api</artifactId>
-			<version>6</version>
-			<scope>provided</scope>
-		</dependency>
+		  	<groupId>net.wasdev.maven.tools</groupId>
+		  	<artifactId>liberty-target</artifactId>
+		  	<version>LATEST</version>
+		  	<type>pom</type>
+		  	<scope>provided</scope>
+  		</dependency>
 	</dependencies>
 
 	<build>

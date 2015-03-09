@@ -6,6 +6,14 @@
 	<version>1.0</version>
 	<packaging>maven-archetype</packaging>
 	
+	<licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>https://raw.github.com/WASdev/ci.maven.tools/master/LICENSE</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+	
 	<build>
 		<plugins>
 			<plugin>
