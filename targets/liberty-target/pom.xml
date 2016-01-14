@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>net.wasdev.maven.tools.parents</groupId>
+    <version>8.5.5.8</version>
+    <artifactId>targets-parent</artifactId>
+  </parent>
+
+  <groupId>net.wasdev.maven.tools.targets</groupId>
+  <artifactId>liberty-target</artifactId>
+  <packaging>pom</packaging>
+
+  <name>Full WebSphere Liberty libraries</name>
+  <description>POM targeting WebSphere Liberty APIs, SPIs, Java specifications and third-party libraries.</description>
+
+  <dependencies>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>liberty-spis</artifactId>
+      <version>${project.version}</version>
+      <type>pom</type>
+    </dependency>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>liberty-apis</artifactId>
+      <version>${project.version}</version>
+      <type>pom</type>
+    </dependency>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>java-specs</artifactId>
+      <version>${jspecs.libs.version}</version>
+      <type>pom</type>
+    </dependency>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>third-party</artifactId>
+      <version>${thirdparty.libs.version}</version>
+      <type>pom</type>
+    </dependency>
+  </dependencies>
+</project>

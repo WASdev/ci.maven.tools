@@ -1,60 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
 
-    <modelVersion>4.0.0</modelVersion>
+  <groupId>net.wasdev.maven.tools.parents</groupId>
+  <artifactId>main-parent</artifactId>
+  <version>1.0</version>
+  <packaging>pom</packaging>
 
-    <parent>
-        <groupId>net.wasdev.maven.parent</groupId>
-        <artifactId>default-parent</artifactId>
-        <version>1.2</version>
-    </parent>
+  <name>Parent POM for all projects</name>
+  <description>Parent POM for building WDT Maven tools supporting Eclipse development for WebSphere Application Server Liberty Profile</description>
+  <url>https://wasdev.github.io/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://raw.github.com/WASdev/ci.maven.tools/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
 
-    <groupId>net.wasdev.maven.tools</groupId>
-    <artifactId>wdt-maven</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <name>WebSphere Developer Tools for Maven</name>
-    <description>
-        Parent pom for WDT Maven tools supporting Eclipse development for 
-        WebSphere Application Server Liberty Profile
-    </description>
-    <url>https://wasdev.github.io</url>
+  <developers>
+    <developer>
+      <id>cbridgha</id>
+      <name>Chuck Bridgham</name>
+      <email>chuck.bridgham@gmail.com</email>
+    </developer>
+    <developer>
+      <id>rea-al</id>
+      <name>Alexis Resendiz A.</name>
+      <email>alexisra@mx1.ibm.com</email>
+      <url>https://github.com/rea-al</url>
+      <organization>IBM</organization>
+      <organizationUrl>http://www.ibm.com/</organizationUrl>
+    </developer>
+  </developers>
 
-    <licenses>
-        <license>
-            <name>The Apache Software License, Version 2.0</name>
-            <url>https://raw.github.com/WASdev/ci.maven.tools/master/LICENSE</url>
-            <distribution>repo</distribution>
-        </license>
-    </licenses>
+  <modules>
+    <module>targets</module>
+  </modules>
 
-    <scm>
-        <connection>scm:git:git@github.com:WASdev/ci.maven.tools.git</connection>
-        <developerConnection>scm:git:git@github.com:WASdev/ci.maven.tools.git</developerConnection>
-        <url>git@github.com:WASdev/ci.maven.tools.git</url>
-    </scm>
-
-    <developers>
-        <developer>
-            <id>cbridgha</id>
-            <name>Chuck Bridgham</name>
-            <email>chuck.bridgham@gmail.com</email>
-        </developer>
-    </developers>
-
-     <modules>
-        <module>runtime_targets/liberty-target</module>   
-        <module>runtime_targets/liberty-target-impl</module>
-        
-        
-     <module>archetypes/liberty-osgi-ejb30-archetype</module>
-        <module>archetypes/liberty-osgi-ejb31-archetype</module>
-        <module>archetypes/liberty-osgi-web30-archetype</module>
-        <module>archetypes/liberty-osgi-web31-archetype</module>
-        <module>archetypes/liberty-ejb31-archetype</module>
-        <module>archetypes/liberty-ejb32-archetype</module>
-        <module>archetypes/liberty-web30-archetype</module>
-        <module>archetypes/liberty-web31-archetype</module>
-    </modules>
-
+  <scm>
+    <connection>scm:git:git@github.com:WASdev/ci.maven.tools.git</connection>
+    <developerConnection>scm:git:git@github.com:WASdev/ci.maven.tools.git</developerConnection>
+    <url>https://github.com/WASdev/ci.maven.tools</url>
+  </scm>
 </project>

@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>net.wasdev.maven.tools.parents</groupId>
+    <artifactId>main-parent</artifactId>
+    <version>1.0</version>
+  </parent>
+
+  <artifactId>targets-parent</artifactId>
+  <version>8.5.5.8</version>
+  <packaging>pom</packaging>
+
+  <name>WebSphere Liberty dependencies parent POM</name>
+  <description>Parent POM for building all WebSphere Liberty dependency POMs</description>
+
+  <modules>
+    <module>liberty-target</module>
+    <module>liberty-spis</module>
+    <module>liberty-apis</module>
+    <module>java-specs</module>
+    <module>third-party</module>
+  </modules>
+
+  <properties>
+    <!-- Third-party and Java Specifications versions to use in the current release -->
+    <jspecs.libs.version>1.0</jspecs.libs.version>
+    <thirdparty.libs.version>1.0</thirdparty.libs.version>
+  </properties>
+</project>
