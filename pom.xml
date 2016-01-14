@@ -37,6 +37,7 @@
 
   <modules>
     <module>targets</module>
+    <module>archetypes</module>
   </modules>
 
   <scm>
@@ -44,4 +45,64 @@
     <developerConnection>scm:git:git@github.com:WASdev/ci.maven.tools.git</developerConnection>
     <url>https://github.com/WASdev/ci.maven.tools</url>
   </scm>
+  
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.archetype</groupId>
+          <artifactId>archetype-packaging</artifactId>
+          <version>2.4</version>
+          <extensions>true</extensions>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-archetype-plugin</artifactId>
+          <version>2.4</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>2.7</version>
+          <configuration>
+            <includeEmptyDirs>true</includeEmptyDirs>
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.3</version>
+          <configuration>
+            <debug>true</debug>
+            <showDeprecation>true</showDeprecation>
+            <showWarnings>true</showWarnings>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
+  <profiles>
+    <profile>
+        <id>skip-test</id>
+        <activation>
+            <property>
+                <name>skipTests</name>
+            </property>
+        </activation>
+        <build>
+            <pluginManagement>
+                <plugins>
+                  <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-archetype-plugin</artifactId>
+                    <configuration>
+                      <skip>true</skip>
+                    </configuration>
+                  </plugin>
+                </plugins>
+            </pluginManagement>
+        </build>
+    </profile>
+  </profiles>
 </project>
