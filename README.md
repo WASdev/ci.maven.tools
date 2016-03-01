@@ -38,8 +38,6 @@ webapp-jee7-liberty 	| Web 3.1 project
 
 Archetype				| Project type
 ----------------------- | ------------
-osgi-ejb30-liberty		| OSGi EJB 3.0 project
-osgi-ejb31-liberty		| OSGi EJB 3.1 project
 osgi-liberty			| OSGi project
 osgi-web25-liberty		| OSGi Web 2.5 project
 osgi-web30-liberty		| OSGi Web 3.0 project

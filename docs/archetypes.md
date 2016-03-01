@@ -15,10 +15,6 @@ This multi-module project contains archetypes to develop new Maven Java EE and O
 			pom.xml
 		ejb-jee7-liberty/ - EJB 3.2 archetype module
 			pom.xml
-		osgi-ejb30-liberty/ - OSGi EJB 3.0 archetype module
-			pom.xml
-		osgi-ejb31-liberty/ - OSGi EJB 3.1 archetype module
-			pom.xml
 		osgi-liberty/ - OSGI archetype module
 			pom.xml
 		osgi-web25-liberty/ - OSGi Web 2.5 archetype
@@ -53,8 +49,6 @@ webapp-jee7-liberty 	| Web 3.1 project
 
 Archetype artifactId	| Project type
 ----------------------- | ------------
-osgi-ejb30-liberty		| OSGi EJB 3.0 project
-osgi-ejb31-liberty		| OSGi EJB 3.1 project
 osgi-liberty			| OSGi project
 osgi-web25-liberty		| OSGi Web 2.5 project
 osgi-web30-liberty		| OSGi Web 3.0 project

@@ -19,8 +19,6 @@
     <module>ejb-jee5-liberty</module>
     <module>ejb-jee6-liberty</module>
     <module>ejb-jee7-liberty</module>
-    <module>osgi-ejb30-liberty</module>
-    <module>osgi-ejb31-liberty</module>
     <module>osgi-liberty</module>
     <module>osgi-web25-liberty</module>
     <module>osgi-web30-liberty</module>
