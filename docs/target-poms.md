@@ -26,13 +26,13 @@ Dependencies are grouped in following modules:
 		third-party/ - Third-party dependencies module
 			pom.xml
 
-##Usage information
+## Usage information
 
 Following modules add WebSphere Liberty dependencies to your project. Add the dependency snippet to your Maven project to reference all dependencies automatically.
 
 It's important to notice that the version of the `liberty-target`, `liberty-apis` and `liberty-spis` are aligned to the release of WebSphere Liberty, so you can use older versions by changing the version of those artifacts.
 
-###liberty-target
+### liberty-target
 
 This project aggregates all other modules that references WebSphere Liberty APIs/SPIs, java specifications and third-party implementations dependencies to compile your project.
 
@@ -46,7 +46,7 @@ Dependency snippet:
 		<scope>provided</scope>
 	</dependency>
 	
-###liberty-apis
+### liberty-apis
 
 WebSphere Liberty API's dependencies. This POM satisfies all APIs libraries that a Liberty installation provides in the `dev/api/ibm` folder.
 
@@ -60,7 +60,7 @@ Dependency snippet:
 		<scope>provided</scope>
 	</dependency>
 
-###liberty-spis
+### liberty-spis
 
 WebSphere Liberty SPI's dependencies. This POM satisfies all SPIs libraries that a Liberty installation provides in the `dev/spi/ibm` folder.
 
@@ -74,7 +74,7 @@ Dependency snippet:
 		<scope>provided</scope>
 	</dependency>
 
-###java-specs
+### java-specs
 
 Java specification dependencies. This POM satisfies all Java specification libraries that a Liberty installation provides in the `dev/api/spec` and `dev/spi/spec` folders.
 
@@ -89,7 +89,7 @@ Dependency snippet:
 	</dependency>
 
 
-###third-party
+### third-party
 
 Third-party implementation dependencies. This POM satisfies all third-party libraries that a Liberty installation provides in the `dev/api/third-party` and `dev/spi/third-party` folders.
 
@@ -103,7 +103,7 @@ Dependency snippet:
 		<scope>provided</scope>
 	</dependency>
 
-##How to build
+## How to build
 
 To build the whole target POMs project locate in the `targets/` folder and execute following command in a Maven terminal:
 
