@@ -3,7 +3,7 @@ ci.maven.tools
 
 ci.maven.tools is a collection of Maven archetypes and target POMs for developing Java EE and OSGi applications targeting WebSphere Application Server Liberty within the WDT Eclipse IDE.
 
-##Projects
+## Projects
 
 There are provided two different projects to be used in Maven environments: [Maven Target POMs](#maven-target-poms), a set of convenience POMs that groups WebSphere Liberty dependencies; and [Maven archetypes](#archetypes), to create new Maven projects with recommended configurations and dependencies targeting WebSphere Liberty.
 
@@ -43,7 +43,7 @@ osgi-web25-liberty		| OSGi Web 2.5 project
 osgi-web30-liberty		| OSGi Web 3.0 project
 osgi-web31-liberty		| OSGi Web 3.1 project
 
-##How to build
+## How to build
 
 To build and install the whole project in your local Maven repository, locate in the root folder and then execute one of the following commands in a Maven terminal.
 
