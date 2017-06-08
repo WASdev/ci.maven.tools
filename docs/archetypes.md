@@ -5,7 +5,7 @@ This multi-module project contains archetypes to develop new Maven Java EE and O
 
 *Note: Usage of following archetypes is recommended with WAS Developer Tools (WDT) for Eclipse IDE.*
 
-##Project structure
+## Project structure
 
 	archetypes/ - Parent POM to build all archetypes
 		pom.xml 
@@ -30,7 +30,7 @@ This multi-module project contains archetypes to develop new Maven Java EE and O
 		webapp-jee7-liberty/ - Web 3.1 archetype
 			pom.xml
 
-##Archetypes list
+## Archetypes list
 
 Following is the list of provided archetypes. The Archetypes groupId is `net.wasdev.maven.tools.archetypes` 
 
@@ -54,11 +54,11 @@ osgi-web25-liberty		| OSGi Web 2.5 project
 osgi-web30-liberty		| OSGi Web 3.0 project
 osgi-web31-liberty		| OSGi Web 3.1 project
 
-##Usage information
+## Usage information
 
 You can use the provided archetypes by using WDT for Eclipse IDE and by CLI.
 
-###Usage with WDT for Eclipse IDE
+### Usage with WDT for Eclipse IDE
 
 1. Open the New Project Wizard by selecting **File/New/Other...** menu.
 2. In the Filter textbox type **Maven Project** and press **Next** button.
@@ -67,7 +67,7 @@ You can use the provided archetypes by using WDT for Eclipse IDE and by CLI.
 5. Select one of the provided archetypes and then follow the Wizard.
 6. Once completed, wait until all processes conclude and WDT for Eclipse IDE will install project facets and configure your Maven project in base of the archetype you chose at step 5.
 
-###Usage by CLI
+### Usage by CLI
 
 Open a Maven terminal and then execute following command to generate a new Maven project:
 
@@ -75,7 +75,7 @@ Open a Maven terminal and then execute following command to generate a new Maven
 
 After executing the command the interactive mode will be asked for some values like your artifactId, groupId and version for your project before finishing.
 
-##How to build
+## How to build
 
 *Before building this project in your machine, ensure you have installed the [target POMs project](../docs/target-poms.md) as archetypes use net.wasdev.maven.tools.targets:liberty-target:RELEASE dependency*.
 
