@@ -9,10 +9,10 @@
   </parent>
 
   <groupId>net.wasdev.maven.tools.archetypes</groupId>
-  <artifactId>osgi-web30-liberty</artifactId>
-  <version>1.1</version>
+  <artifactId>webapp-jee8-liberty</artifactId>
+  <version>1.0</version>
   <packaging>maven-archetype</packaging>
 
-  <name>OSGi Web 3.0 project archetype</name>
-  <description>OSGi Web 3.0 project targeting WebSphere Liberty</description>
+  <name>Web 4.0 project archetype</name>
+  <description>Web 4.0 project targeting WebSphere Liberty</description>
 </project>

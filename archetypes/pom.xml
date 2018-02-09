@@ -23,9 +23,11 @@
     <module>osgi-web25-liberty</module>
     <module>osgi-web30-liberty</module>
     <module>osgi-web31-liberty</module>
+    <module>osgi-web40-liberty</module>
     <module>webapp-jee5-liberty</module>
     <module>webapp-jee6-liberty</module>
     <module>webapp-jee7-liberty</module>
+    <module>webapp-jee8-liberty</module>
   </modules>
 
   <build>

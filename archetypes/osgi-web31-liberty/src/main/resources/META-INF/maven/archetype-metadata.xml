@@ -11,4 +11,13 @@
 		</requiredProperty>
 	</requiredProperties>
 
+	<fileSets>
+		<fileSet filtered="true" packaged="false">
+			<directory>src/main/webapp</directory>
+			<includes>
+				<include>**/*.*</include>
+			</includes>
+		</fileSet>
+	</fileSets>
+
 </archetype-descriptor>

@@ -33,6 +33,7 @@ ejb-jee7-liberty 		| EJB 3.2 project
 webapp-jee5-liberty 	| Web 2.5 project
 webapp-jee6-liberty 	| Web 3.0 project
 webapp-jee7-liberty 	| Web 3.1 project
+webapp-jee8-liberty 	| Web 4.0 project
 
 #### OSGi Enterprise archetypes
 
@@ -42,6 +43,7 @@ osgi-liberty			| OSGi project
 osgi-web25-liberty		| OSGi Web 2.5 project
 osgi-web30-liberty		| OSGi Web 3.0 project
 osgi-web31-liberty		| OSGi Web 3.1 project
+osgi-web40-liberty		| OSGi Web 4.0 project
 
 ## How to build
 
