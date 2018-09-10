@@ -4,12 +4,13 @@
 
   <parent>
     <groupId>net.wasdev.maven.tools.parents</groupId>
-    <version>18.0.0.3</version>
+    <version>8.5.5.8</version>
     <artifactId>targets-parent</artifactId>
   </parent>
 
   <groupId>net.wasdev.maven.tools.targets</groupId>
   <artifactId>third-party</artifactId>
+  <version>1.0</version>
   <packaging>pom</packaging>
 
   <name>Third-party libraries</name>
