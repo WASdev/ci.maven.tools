@@ -5,12 +5,12 @@
   <parent>
     <groupId>net.wasdev.maven.tools.parents</groupId>
     <artifactId>targets-parent</artifactId>
-    <version>19.0.0.1</version>
+<   <version>19.0.0.1</version>
   </parent>
   <groupId>net.wasdev.maven.tools.targets</groupId>
   <artifactId>liberty-apis</artifactId>
   <version>19.0.0.1</version>
-  <packaging>pom</packaging>
+= <packaging>pom</packaging>
   <name>WebSphere Liberty API libraries</name>
   <description>POM targeting WebSphere Liberty API libraries</description>
   <dependencies>
