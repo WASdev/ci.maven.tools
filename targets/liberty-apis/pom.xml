@@ -16,6 +16,131 @@
   <dependencies>
     <dependency>
       <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.authData</artifactId>
+      <version>1.0.65</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.basics</artifactId>
+      <version>1.4.65</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.clusterMember</artifactId>
+      <version>1.0.65</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.collectiveController</artifactId>
+      <version>1.7.62</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.config</artifactId>
+      <version>1.2.65</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.connectionmanager</artifactId>
+      <version>1.2.65</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.connectionpool</artifactId>
+      <version>1.1.65</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.constrainedDelegation</artifactId>
+      <version>1.0.61</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.distributedMap</artifactId>
+      <version>2.0.65</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.dynamicRouting</artifactId>
+      <version>1.2.65</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.ejbcontainer</artifactId>
+      <version>1.0.65</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.endpoint</artifactId>
+      <version>1.0.65</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.heritage</artifactId>
+      <version>1.0.65</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.heritage.jdbc</artifactId>
+      <version>1.1.65</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.hpel</artifactId>
+      <version>2.0.65</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.j2eemanagement</artifactId>
+      <version>1.1.65</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.jacc</artifactId>
+      <version>1.0.65</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.jaxrs</artifactId>
+      <version>1.0.65</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.jaxrs20</artifactId>
+      <version>1.1.65</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.jaxrs30</artifactId>
+      <version>1.0.58</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.json</artifactId>
+      <version>1.0.65</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.jwt</artifactId>
+      <version>1.1.65</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.kernel.service</artifactId>
+      <version>1.1.65</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.messaging</artifactId>
+      <version>1.0.65</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.monitor</artifactId>
+      <version>1.1.65</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
       <artifactId>com.ibm.websphere.appserver.api.oauth</artifactId>
       <version>1.2.65</version>
     </dependency>
@@ -36,8 +161,18 @@
     </dependency>
     <dependency>
       <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.requestTimingMonitor</artifactId>
+      <version>1.0.62</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
       <artifactId>com.ibm.websphere.appserver.api.restConnector</artifactId>
       <version>1.3.65</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.safKeystoreRefresh</artifactId>
+      <version>1.0.62</version>
     </dependency>
     <dependency>
       <groupId>com.ibm.websphere.appserver.api</groupId>
@@ -58,6 +193,16 @@
       <groupId>com.ibm.websphere.appserver.api</groupId>
       <artifactId>com.ibm.websphere.appserver.api.security</artifactId>
       <version>1.3.65</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.security.authorization.saf</artifactId>
+      <version>1.3.61</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.security.registry.saf</artifactId>
+      <version>1.0.61</version>
     </dependency>
     <dependency>
       <groupId>com.ibm.websphere.appserver.api</groupId>
@@ -86,6 +231,11 @@
     </dependency>
     <dependency>
       <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.sipServletSecurity.1.0</artifactId>
+      <version>1.0.61</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
       <artifactId>com.ibm.websphere.appserver.api.social</artifactId>
       <version>1.0.65</version>
     </dependency>
@@ -101,8 +251,18 @@
     </dependency>
     <dependency>
       <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.transaction.2.0</artifactId>
+      <version>1.1.58</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
       <artifactId>com.ibm.websphere.appserver.api.webCache</artifactId>
       <version>1.1.65</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.webcontainer.security.app</artifactId>
+      <version>1.4.61</version>
     </dependency>
     <dependency>
       <groupId>com.ibm.websphere.appserver.api</groupId>
@@ -112,6 +272,11 @@
     <dependency>
       <groupId>com.ibm.websphere.appserver.api</groupId>
       <artifactId>com.ibm.websphere.appserver.api.zosLocalAdapters</artifactId>
+      <version>1.0.65</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.zosRequestLogging</artifactId>
       <version>1.0.65</version>
     </dependency>
   </dependencies>
