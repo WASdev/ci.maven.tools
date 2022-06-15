@@ -202,7 +202,7 @@
     <dependency>
       <groupId>com.ibm.websphere.appserver.api</groupId>
       <artifactId>com.ibm.websphere.appserver.api.security.registry.saf</artifactId>
-      <version>1.0.9</version>
+      <version>1.0.65</version>
     </dependency>
     <dependency>
       <groupId>com.ibm.websphere.appserver.api</groupId>
