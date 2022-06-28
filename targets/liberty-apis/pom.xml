@@ -5,11 +5,11 @@
   <parent>
     <groupId>net.wasdev.maven.tools.parents</groupId>
     <artifactId>targets-parent</artifactId>
-    <version>22.0.0.6</version>
+    <version>22.0.0.6.1</version>
   </parent>
   <groupId>net.wasdev.maven.tools.targets</groupId>
   <artifactId>liberty-apis</artifactId>
-  <version>22.0.0.6</version>
+  <version>22.0.0.6.1</version>
   <packaging>pom</packaging>
   <name>WebSphere Liberty API libraries</name>
   <description>POM targeting WebSphere Liberty API libraries</description>
@@ -32,7 +32,7 @@
     <dependency>
       <groupId>com.ibm.websphere.appserver.api</groupId>
       <artifactId>com.ibm.websphere.appserver.api.collectiveController</artifactId>
-      <version>1.7.62</version>
+      <version>1.7.65</version>
     </dependency>
     <dependency>
       <groupId>com.ibm.websphere.appserver.api</groupId>
@@ -52,7 +52,7 @@
     <dependency>
       <groupId>com.ibm.websphere.appserver.api</groupId>
       <artifactId>com.ibm.websphere.appserver.api.constrainedDelegation</artifactId>
-      <version>1.0.61</version>
+      <version>1.0.65</version>
     </dependency>
     <dependency>
       <groupId>com.ibm.websphere.appserver.api</groupId>
@@ -111,11 +111,6 @@
     </dependency>
     <dependency>
       <groupId>com.ibm.websphere.appserver.api</groupId>
-      <artifactId>com.ibm.websphere.appserver.api.jaxrs30</artifactId>
-      <version>1.0.58</version>
-    </dependency>
-    <dependency>
-      <groupId>com.ibm.websphere.appserver.api</groupId>
       <artifactId>com.ibm.websphere.appserver.api.json</artifactId>
       <version>1.0.65</version>
     </dependency>
@@ -162,7 +157,7 @@
     <dependency>
       <groupId>com.ibm.websphere.appserver.api</groupId>
       <artifactId>com.ibm.websphere.appserver.api.requestTimingMonitor</artifactId>
-      <version>1.0.62</version>
+      <version>1.0.65</version>
     </dependency>
     <dependency>
       <groupId>com.ibm.websphere.appserver.api</groupId>
@@ -172,7 +167,7 @@
     <dependency>
       <groupId>com.ibm.websphere.appserver.api</groupId>
       <artifactId>com.ibm.websphere.appserver.api.safKeystoreRefresh</artifactId>
-      <version>1.0.62</version>
+      <version>1.0.65</version>
     </dependency>
     <dependency>
       <groupId>com.ibm.websphere.appserver.api</groupId>
@@ -197,12 +192,12 @@
     <dependency>
       <groupId>com.ibm.websphere.appserver.api</groupId>
       <artifactId>com.ibm.websphere.appserver.api.security.authorization.saf</artifactId>
-      <version>1.3.61</version>
+      <version>1.3.65</version>
     </dependency>
     <dependency>
       <groupId>com.ibm.websphere.appserver.api</groupId>
       <artifactId>com.ibm.websphere.appserver.api.security.registry.saf</artifactId>
-      <version>1.0.61</version>
+      <version>1.0.65</version>
     </dependency>
     <dependency>
       <groupId>com.ibm.websphere.appserver.api</groupId>
@@ -232,7 +227,7 @@
     <dependency>
       <groupId>com.ibm.websphere.appserver.api</groupId>
       <artifactId>com.ibm.websphere.appserver.api.sipServletSecurity.1.0</artifactId>
-      <version>1.0.61</version>
+      <version>1.0.65</version>
     </dependency>
     <dependency>
       <groupId>com.ibm.websphere.appserver.api</groupId>
@@ -251,18 +246,13 @@
     </dependency>
     <dependency>
       <groupId>com.ibm.websphere.appserver.api</groupId>
-      <artifactId>com.ibm.websphere.appserver.api.transaction.2.0</artifactId>
-      <version>1.1.58</version>
-    </dependency>
-    <dependency>
-      <groupId>com.ibm.websphere.appserver.api</groupId>
       <artifactId>com.ibm.websphere.appserver.api.webCache</artifactId>
       <version>1.1.65</version>
     </dependency>
     <dependency>
       <groupId>com.ibm.websphere.appserver.api</groupId>
       <artifactId>com.ibm.websphere.appserver.api.webcontainer.security.app</artifactId>
-      <version>1.4.61</version>
+      <version>1.4.65</version>
     </dependency>
     <dependency>
       <groupId>com.ibm.websphere.appserver.api</groupId>
@@ -276,7 +266,77 @@
     </dependency>
     <dependency>
       <groupId>com.ibm.websphere.appserver.api</groupId>
+      <artifactId>com.ibm.websphere.appserver.api.zosLocalAdapters.jakarta</artifactId>
+      <version>1.0.61</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.websphere.appserver.api</groupId>
       <artifactId>com.ibm.websphere.appserver.api.zosRequestLogging</artifactId>
+      <version>1.0.65</version>
+    </dependency>
+    <dependency>
+      <groupId>io.openliberty.api</groupId>
+      <artifactId>io.openliberty.ejbcontainer</artifactId>
+      <version>1.0.65</version>
+    </dependency>
+    <dependency>
+      <groupId>io.openliberty.api</groupId>
+      <artifactId>io.openliberty.grpc.1.0</artifactId>
+      <version>1.0.65</version>
+    </dependency>
+    <dependency>
+      <groupId>io.openliberty.api</groupId>
+      <artifactId>io.openliberty.jacc</artifactId>
+      <version>1.0.65</version>
+    </dependency>
+    <dependency>
+      <groupId>io.openliberty.api</groupId>
+      <artifactId>io.openliberty.jaxrs30</artifactId>
+      <version>1.0.65</version>
+    </dependency>
+    <dependency>
+      <groupId>io.openliberty.api</groupId>
+      <artifactId>io.openliberty.jwt</artifactId>
+      <version>1.1.65</version>
+    </dependency>
+    <dependency>
+      <groupId>io.openliberty.api</groupId>
+      <artifactId>io.openliberty.oauth</artifactId>
+      <version>1.2.65</version>
+    </dependency>
+    <dependency>
+      <groupId>io.openliberty.api</groupId>
+      <artifactId>io.openliberty.security</artifactId>
+      <version>1.3.65</version>
+    </dependency>
+    <dependency>
+      <groupId>io.openliberty.api</groupId>
+      <artifactId>io.openliberty.securityClient</artifactId>
+      <version>1.1.65</version>
+    </dependency>
+    <dependency>
+      <groupId>io.openliberty.api</groupId>
+      <artifactId>io.openliberty.servlet</artifactId>
+      <version>1.1.65</version>
+    </dependency>
+    <dependency>
+      <groupId>io.openliberty.api</groupId>
+      <artifactId>io.openliberty.transaction</artifactId>
+      <version>1.1.65</version>
+    </dependency>
+    <dependency>
+      <groupId>io.openliberty.api</groupId>
+      <artifactId>io.openliberty.webCache</artifactId>
+      <version>1.1.65</version>
+    </dependency>
+    <dependency>
+      <groupId>io.openliberty.api</groupId>
+      <artifactId>io.openliberty.webcontainer.security.app</artifactId>
+      <version>1.4.65</version>
+    </dependency>
+    <dependency>
+      <groupId>io.openliberty.api</groupId>
+      <artifactId>io.openliberty.wsoc</artifactId>
       <version>1.0.65</version>
     </dependency>
   </dependencies>
