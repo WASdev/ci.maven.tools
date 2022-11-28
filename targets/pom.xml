@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>targets-parent</artifactId>
-  <version>22.0.0.6.1</version>
+  <version>22.0.0.11</version>
   <packaging>pom</packaging>
 
   <name>WebSphere Liberty dependencies parent POM</name>
