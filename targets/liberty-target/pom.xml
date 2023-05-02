@@ -4,7 +4,7 @@
 
   <parent>
     <groupId>net.wasdev.maven.tools.parents</groupId>
-    <version>22.0.0.11</version>
+    <version>23.0.0.3</version>
     <artifactId>targets-parent</artifactId>
   </parent>
 
