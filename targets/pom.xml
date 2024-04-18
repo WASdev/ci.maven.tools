@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>targets-parent</artifactId>
-  <version>23.0.0.12</version>
+  <version>24.0.0.3</version>
   <packaging>pom</packaging>
 
   <name>WebSphere Liberty dependencies parent POM</name>
@@ -26,6 +26,6 @@
   <properties>
     <!-- Third-party and Java Specifications versions to use in the current release -->
     <jspecs.libs.version>1.0</jspecs.libs.version>
-    <thirdparty.libs.version>1.0</thirdparty.libs.version>
+    <thirdparty.libs.version>1.1</thirdparty.libs.version>
   </properties>
 </project>

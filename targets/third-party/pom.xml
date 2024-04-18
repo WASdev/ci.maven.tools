@@ -10,11 +10,19 @@
 
   <groupId>net.wasdev.maven.tools.targets</groupId>
   <artifactId>third-party</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
   <packaging>pom</packaging>
 
   <name>Third-party libraries</name>
   <description>POM targeting third-party libraries for WebSphere Liberty</description>
+
+  <repositories>
+    <repository>
+      <id>liberty-dhe</id>
+      <name>Liberty DHE Repository</name>
+      <url>https://public.dhe.ibm.com/ibmdl/export/pub/software/olrepo/</url>
+    </repository>
+  </repositories>
 
   <dependencies>
     <dependency>
@@ -81,24 +89,24 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.codehaus.jackson</groupId>
+      <groupId>io.openliberty.org.codehaus.jackson</groupId>
       <artifactId>jackson-jaxrs</artifactId>
-      <version>1.6.2</version>
+      <version>1.9.13.1</version>
     </dependency>
     <dependency>
-      <groupId>org.codehaus.jackson</groupId>
+      <groupId>io.openliberty.org.codehaus.jackson</groupId>
       <artifactId>jackson-core-asl</artifactId>
-      <version>1.6.2</version>
+      <version>1.9.13.1</version>
     </dependency>
     <dependency>
-      <groupId>org.codehaus.jackson</groupId>
+      <groupId>io.openliberty.org.codehaus.jackson</groupId>
       <artifactId>jackson-mapper-asl</artifactId>
-      <version>1.6.2</version>
+      <version>1.9.13.1</version>
     </dependency>
     <dependency>
-      <groupId>org.codehaus.jackson</groupId>
+      <groupId>io.openliberty.org.codehaus.jackson</groupId>
       <artifactId>jackson-xc</artifactId>
-      <version>1.6.2</version>
+      <version>1.9.13.1</version>
     </dependency>
     <dependency>
       <groupId>org.apache.wink</groupId>
@@ -113,7 +121,7 @@
     <dependency>
       <groupId>org.apache.openjpa</groupId>
       <artifactId>openjpa</artifactId>
-      <version>2.2.0</version>
+      <version>2.2.2</version>
     </dependency>
     <dependency>
       <groupId>io.swagger</groupId>
@@ -123,7 +131,7 @@
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpclient</artifactId>
-      <version>4.3</version>
+      <version>4.5.14</version>
     </dependency>
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
