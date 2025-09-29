@@ -8,12 +8,36 @@
     <version>1.0</version>
   </parent>
 
+  <groupId>net.wasdev.maven.tools.parents</groupId>
   <artifactId>targets-parent</artifactId>
-  <version>25.0.0.6</version>
+  <version>25.0.0.6-test</version>
   <packaging>pom</packaging>
 
   <name>WebSphere Liberty dependencies parent POM</name>
   <description>Parent POM for building all WebSphere Liberty dependency POMs</description>
+  <url>https://www.ibm.com/</url>
+  <licenses>
+    <license>
+      <name>IBM International License Agreement for Non-Warranted Programs</name>
+      <url>https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/maven/licenses/L-JTHS-8SZMHX/HTML/</url>
+      <distribution>repo</distribution>
+      <comments>Additional notices https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/maven/licenses/L-JTHS-8SZMHX/HTML/notices.html </comments>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/OpenLiberty/open-liberty.git</url>
+    <connection>scm:git: https://github.com/OpenLiberty/open-liberty.git</connection>
+    <developerConnection>private</developerConnection>
+  </scm>
+  <developers>
+    <developer>
+      <id>contbld</id>
+      <name>contbld</name>
+      <email>contbld@uk.ibm.com</email>
+      <organization>IBM</organization>
+      <organizationUrl>https://www.ibm.com</organizationUrl>
+    </developer>
+  </developers>
 
   <modules>
     <module>liberty-target</module>
