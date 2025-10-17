@@ -1,18 +1,16 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-
   <parent>
     <groupId>net.wasdev.maven.tools.parents</groupId>
     <artifactId>main-parent</artifactId>
     <version>1.0</version>
   </parent>
-
   <groupId>net.wasdev.maven.tools.parents</groupId>
   <artifactId>targets-parent</artifactId>
-  <version>25.0.0.9</version>
+  <version>25.0.0.10</version>
   <packaging>pom</packaging>
-
   <name>WebSphere Liberty dependencies parent POM</name>
   <description>Parent POM for building all WebSphere Liberty dependency POMs</description>
   <url>https://www.ibm.com/</url>
@@ -21,14 +19,9 @@
       <name>IBM International License Agreement for Non-Warranted Programs</name>
       <url>https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/maven/licenses/L-JTHS-8SZMHX/HTML/</url>
       <distribution>repo</distribution>
-      <comments>Additional notices https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/maven/licenses/L-JTHS-8SZMHX/HTML/notices.html </comments>
+      <comments>Additional notices https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/maven/licenses/L-JTHS-8SZMHX/HTML/notices.html</comments>
     </license>
   </licenses>
-  <scm>
-    <url>https://github.com/OpenLiberty/open-liberty.git</url>
-    <connection>scm:git: https://github.com/OpenLiberty/open-liberty.git</connection>
-    <developerConnection>private</developerConnection>
-  </scm>
   <developers>
     <developer>
       <id>contbld</id>
@@ -38,7 +31,6 @@
       <organizationUrl>https://www.ibm.com</organizationUrl>
     </developer>
   </developers>
-
   <modules>
     <module>liberty-target</module>
     <module>liberty-spis</module>
@@ -46,9 +38,12 @@
     <module>java-specs</module>
     <module>third-party</module>
   </modules>
-
+  <scm>
+    <connection>scm:git: https://github.com/OpenLiberty/open-liberty.git</connection>
+    <developerConnection>private</developerConnection>
+    <url>https://github.com/OpenLiberty/open-liberty.git</url>
+  </scm>
   <properties>
-    <!-- Third-party and Java Specifications versions to use in the current release -->
     <jspecs.libs.version>1.0</jspecs.libs.version>
     <thirdparty.libs.version>1.1</thirdparty.libs.version>
   </properties>
