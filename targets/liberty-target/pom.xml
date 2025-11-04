@@ -4,19 +4,17 @@
 
   <parent>
     <groupId>net.wasdev.maven.tools.parents</groupId>
-    <version>25.0.0.6-test</version>
+    <version>25.0.0.9</version>
     <artifactId>targets-parent</artifactId>
   </parent>
   
-  <version>25.0.0.6-test</version>
+  <version>25.0.0.9</version>
   <groupId>net.wasdev.maven.tools.targets</groupId>
   <artifactId>liberty-target</artifactId>
   <packaging>pom</packaging>
 
-  <name>Full WebSphere Liberty libraries</name>
-  <description>POM targeting WebSphere Liberty APIs, SPIs, Java specifications and third-party libraries.</description>
-  <name>WebSphere Liberty dependencies parent POM</name>
-  <description>Parent POM for building all WebSphere Liberty dependency POMs</description>
+  <name>Full WebSphere Liberty libraries WebSphere Liberty dependencies parent POM</name>
+  <description>POM targeting WebSphere Liberty APIs, SPIs, Java specifications and third-party libraries. Parent POM for building all WebSphere Liberty dependency POMs</description>
   <url>https://www.ibm.com/</url>
   <licenses>
     <license>

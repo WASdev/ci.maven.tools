@@ -10,7 +10,7 @@
 
   <groupId>net.wasdev.maven.tools.parents</groupId>
   <artifactId>targets-parent</artifactId>
-  <version>25.0.0.6-test</version>
+  <version>25.0.0.9</version>
   <packaging>pom</packaging>
 
   <name>WebSphere Liberty dependencies parent POM</name>
