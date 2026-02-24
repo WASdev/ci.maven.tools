@@ -1,18 +1,16 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-
   <parent>
     <groupId>net.wasdev.maven.tools.parents</groupId>
-    <version>25.0.0.9</version>
     <artifactId>targets-parent</artifactId>
+    <version>26.0.0.2</version>
   </parent>
-  
-  <version>25.0.0.9</version>
   <groupId>net.wasdev.maven.tools.targets</groupId>
   <artifactId>liberty-target</artifactId>
+  <version>26.0.0.2</version>
   <packaging>pom</packaging>
-
   <name>Full WebSphere Liberty libraries WebSphere Liberty dependencies parent POM</name>
   <description>POM targeting WebSphere Liberty APIs, SPIs, Java specifications and third-party libraries. Parent POM for building all WebSphere Liberty dependency POMs</description>
   <url>https://www.ibm.com/</url>
@@ -21,14 +19,9 @@
       <name>IBM International License Agreement for Non-Warranted Programs</name>
       <url>https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/maven/licenses/L-JTHS-8SZMHX/HTML/</url>
       <distribution>repo</distribution>
-      <comments>Additional notices https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/maven/licenses/L-JTHS-8SZMHX/HTML/notices.html </comments>
+      <comments>Additional notices https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/maven/licenses/L-JTHS-8SZMHX/HTML/notices.html</comments>
     </license>
   </licenses>
-  <scm>
-    <url>https://github.com/OpenLiberty/open-liberty.git</url>
-    <connection>scm:git: https://github.com/OpenLiberty/open-liberty.git</connection>
-    <developerConnection>private</developerConnection>
-  </scm>
   <developers>
     <developer>
       <id>contbld</id>
@@ -38,7 +31,11 @@
       <organizationUrl>https://www.ibm.com</organizationUrl>
     </developer>
   </developers>
-
+  <scm>
+    <connection>scm:git: https://github.com/OpenLiberty/open-liberty.git</connection>
+    <developerConnection>private</developerConnection>
+    <url>https://github.com/OpenLiberty/open-liberty.git</url>
+  </scm>
   <dependencies>
     <dependency>
       <groupId>${project.groupId}</groupId>
